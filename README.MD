@@ -15,8 +15,8 @@ A Streamlit-based feedback analysis agent application that processes and analyze
    ```
    pip install -r requirements.txt
    ```
-3. **LLM keys: ***
-- update .env file with openAI/AzureOpenAI keys
+3. **LLM keys & config: ***
+- create .env file with openAI/AzureOpenAI config according to .env.example in FeedbackAgent folder
 
 ## Running the Application
 
@@ -47,5 +47,6 @@ agent/
 │   ├── PromptFactory.py
 └── README.MD              # This file
 ```
+
 
 
